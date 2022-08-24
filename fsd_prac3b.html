@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRASHTI PATEL</title>
+</head>
+
+<body style="background-color: rgb(241, 173, 185);">
+    <center>
+        <h1 style="margin-top: 50px; margin-bottom: 0px;">PRACTICAL 3B</h1>
+        <p style="font-size: 25px;">Right click -->select Inspect -->Console--> Output </p>
+    </center>
+
+    <script>
+        class Student {
+            constructor(rollno, first_name, last_name) {
+                this.rollno = rollno;
+                this.first_name = first_name;
+                this.last_name = last_name;
+            }
+
+            setFullName(f_name, l_name) {
+                this.first_name = f_name;
+                this.last_name = l_name;
+            }
+
+            printFullName() {
+                console.log(this.first_name + " " + s1.last_name);
+            }
+        }
+
+        var s1 = new Student('20CS049', 'Drashti', 'Patel')
+        s1.printFullName();
+
+        s1.setFullName('Viaan', 'Patel');
+        s1.printFullName();
+    </script>
+</body>
+
+</html>
